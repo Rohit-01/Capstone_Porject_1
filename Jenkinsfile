@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Group 4 capstone pipeline'
+        sh './mvnw clean compile'
       }
     }
 
